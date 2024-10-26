@@ -6,7 +6,7 @@ window.addEventListener('scroll', function() {
         logo.src = "img/logoScrolled2.png";
     } else {
         header.classList.remove('scrolled'); // Elimina la clase cuando vuelves a la parte superior
-        logo.src = "img/logo.png"
+        logo.src = "img/Logo.png"
     }
 });
 
