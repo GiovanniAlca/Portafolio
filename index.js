@@ -10,3 +10,14 @@ window.addEventListener('scroll', function() {
     }
 });
 
+document.getElementById('menuToggle').addEventListener('click', function(){
+    const navegacion = document.getElementById("navegacion");
+    navegacion.classList.toggle('show');
+})
+
+document.getElementById('menuToggle').addEventListener('click', function(){
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar.style.display === "none" || sidebar.style.display === "") {
+        sidebar.style.display = 'block';
+    }
+})
