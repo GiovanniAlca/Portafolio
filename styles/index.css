@@ -92,7 +92,7 @@ body{
 #formacion,
 #proyectos,
 #contacto{
-    scroll-margin-top: 100px;
+    scroll-margin-top: 60px;
 }
 
 .cabezera_menu a:hover::after,
@@ -663,6 +663,10 @@ body{
     text-decoration: none;
 }
 
+.redes a i:hover{
+    color: var(--secondary-color);
+}
+
 .redes{
     flex-direction: row;
 }
@@ -800,5 +804,6 @@ footer {
 
 .textoFooter{
     margin: 0;
+    color: var(--white);
 }
 
