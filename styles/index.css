@@ -118,7 +118,7 @@ body{
     width: 100%; 
 }
 
-.menu_sidebar active{
+.menu_sidebar {
     display: none;
 }
 
@@ -128,6 +128,10 @@ body{
     display: flex;
     margin: 15% 10% 10%;
     gap: 50px;
+}
+
+.nombre{
+    color: var(--secondary-color);
 }
 
 .main_presentacion_img{
