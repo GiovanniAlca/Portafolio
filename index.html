@@ -264,7 +264,7 @@
                     Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
                 <form action="https://formspree.io/f/xqakeeyo" class="formularioContacto" method="post">
                     <fieldset class="contenedorNombre">
-                        <input type="text" name="nombre" id="nombre" required>
+                        <input type="text" name="nombre" id="nombre" maxlength="50" required>
                         <div class="labelLine">Nombre</div>
                     </fieldset>
                     <fieldset class="contenedorEmail">
@@ -272,11 +272,11 @@
                         <div class="labelLine">E-mail</div>
                     </fieldset>
                     <fieldset class="contenedorAsunto">
-                        <input type="text" name="asunto" id="asunto" required>
+                        <input type="text" name="asunto" id="asunto" maxlength="50" required>
                         <div class="labelLine">Asunto</div>
                     </fieldset>
                     <fieldset class="contenedorMensaje">
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="300" required></textarea>
                         <div class="labelLine">Mensaje</div>
                     </fieldset>
                     <button class="BotonFormulario" type="submit">Enviar</button>
