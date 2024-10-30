@@ -89,6 +89,7 @@ body{
     position: relative; 
     padding-bottom: 5px; 
     transition: color 200ms ease;
+    font-size: 20px;
 }
 
 .cabezera_menu a::after {
